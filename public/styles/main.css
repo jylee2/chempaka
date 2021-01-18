@@ -1,0 +1,152 @@
+/* Scrolls smoothly when clicking on navbar buttons */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 320px;
+}
+  
+.classNavbar {
+    background-color: Chocolate;
+    /* Bring navbar to the front */
+    z-index: 1;
+}
+
+/* Centre the <div> */
+.classDivCenter {
+    display: flex;
+    /* The flexible items are displayed vertically, as a column */
+    flex-direction: column;
+    /* Align the flex items at the center of the container, vertically */
+    justify-content: center;
+    /* Center the alignments for all the items of the flexible <div> element, horizontally */
+    align-items: center;
+    /* Center the text horizontally */
+    /* text-align: center; */
+}
+
+.classHomeSection {
+    height: 90vh;
+}
+
+.classHomeImg {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://3.bp.blogspot.com/-seQfD81QPQk/WCbI4-wUDpI/AAAAAAAAHsI/05uZv6Q8ffs0Xh2Lgdhi7sPXLXGZeL5oQCPcB/s1600/201600305%2BChempaka%2BBuddhist%2BLodge%2BTaman%2BMayang%2BJaya%2BPetaling%2BJaya%2BSelangor.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(60%);
+    z-index: -1;
+}
+
+.classHomeText {
+    position: absolute;
+    margin: 20px;
+    font-size: 24pt;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    /* z-index: 1; */
+}
+
+.classNoMarPad {
+    margin: 0;
+    padding: 0;
+}
+
+.classHeaderText {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.classAboutSection {
+    min-height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.classAboutImg {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://scontent.fkul2-2.fna.fbcdn.net/v/t31.0-8/11149616_830666223674853_2834992998163290147_o.jpg?_nc_cat=103&ccb=2&_nc_sid=e3f864&_nc_ohc=4WwB1AZpA-4AX_HuLcx&_nc_ht=scontent.fkul2-2.fna&oh=f8f999eb480c1f3aa96c84683bb4a552&oe=60287A46");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(60%); */
+}
+
+.classAboutText {
+    align-items: left;
+    padding: 42px;
+    text-align: justify;
+}
+
+.classServicesSection {
+    min-height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.classServicesImg {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://scontent.fkul2-2.fna.fbcdn.net/v/t1.0-9/106404305_4029823467092430_8583464665329201406_n.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_ohc=88Gm5e_yqBoAX81qiaK&_nc_ht=scontent.fkul2-2.fna&oh=adaec326c4d6edf13d6e656781fc418c&oe=6029CE48");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(60%); */
+}
+
+.classContactSection {
+    min-height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.classContactText {
+    align-items: left;
+    padding: 42px;
+}
+
+.classContactTable {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.classContactImg {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://4.bp.blogspot.com/-PT1m95sK908/TZ3Y_vZaO1I/AAAAAAAAApg/BlxL9cv0mQQ/s1600/DSC_0969-734113.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(60%); */
+}
+
+.classFooterSection {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 12pt;
+    padding: 20px 0px 10px 0px;
+}
+
+/* bootstrap col-xl- */
+@media (max-width: 1200px)  {
+
+    .classAboutSection {
+        min-height: 300px;
+    }
+
+    .classServicesSection {
+        min-height: 300px;
+    }
+
+    .classContactSection {
+        min-height: 300px;
+    }
+  
+  }
